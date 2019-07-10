@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style-nav.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <title>Bookmark landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+
+  <header>
+  
+    <img src="images/logo-bookmark.svg" class="logo-text"alt="">
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  
+    <nav>
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" class="btn btn-login">Login</a></li>
+      </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </header>
+  
+  <section>
+    <div class="hero">
+      <div class="container">
+        <div class="col-big">
+          <h1>A Simple Bookmark Manager</h1>
+          <p class="text-muted">A clean and simple interface to organize your favourite websites. Open a new browser tabs and organize your
+          sites load instantly. Try it for free.</p>
+          <div class="row">
+            <a href="#" class="btn btn-chrome">Get it on Chrome</a>
+            <a href="#" class="btn btn-firefox">Get it on Firefox</a>
+          </div>
+        </div>
+          <img src="images/illustration-hero-bg.svg" alt="" class="illustration-hero">
+        </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="features">
+      <h2>Features</h2>
+      <p class="text-muted text-features">Our aim is to it quick and easy for you to access 
+        your favourite websites. Your bookmarks sync between your devices 
+        so you can access them on the go.
+      </p>
+
+      <!-- Tab links -->
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Simple Bookmarking</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Speedy Searching</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Easy Sharing</button>
+      </div>
+
+
+      <!-- Tab content -->
+      <div  class="tabcontent" id="London">
+        <img src="images/illustration-features-tab-1-bg.svg" class="illustration">
+        <div class="col">
+          <h2>Bookmark in one click</h2>
+          <p class="text-muted text-description">Organize your bookmarks however you like.
+             Our simple drag-and-drop interface gives you complete control 
+             over how you manage your favourite sites.
+          </p>
+          <a href="#" class="btn btn-more">More Info</a>
+        </div>
+      </div>
+
+      <div id="Paris" class="tabcontent">
+        <img src="images/illustration-features-tab-2-bg.svg" class="illustration">
+        <div class="col">
+          <h2>Intelligent Search</h2>
+          <p class="text-muted text-description">Our powerful seacrh feature will
+             help you find saved sites in no time at all. No need to trawl through
+              all of your bookmarks.
+          </p>
+          <a href="#" class="btn btn-more">More Info</a>
+        </div>
+      </div>
+      
+      <div id="Tokyo" class="tabcontent">
+        <img src="images/illustration-features-tab-3-bg.svg" class="illustration">
+        <div class="col">
+          <h2>Easy Sharing</h2>
+          <p class="text-muted text-description">Easily share your bookmarks 
+            and collections with others. Create a shareable link that you can 
+            send at the click of a button.
+          </p>
+          <a href="#" class="btn btn-more">More Info</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- EXTENSIONS  -->
+  <section>
+    <div class="extensions">
+
+      <h2>Download the extension</h2>
+      <p class="text-muted text-extensions">We've got more browsers in the pipeline. Please 
+        do let us know if <br> you've got a favourite you'd like us to prioritize.
+      </p>
+      <div class="cards">
+        <div class="card card-chrome">
+          <img src="images/logo-chrome.svg" class="logo-chrome" alt="Chrome">
+          <h3>Add to Chrome</h3>
+          <p class="text-muted text-small">Minimum version 62</p>
+          <img src="images/bg-dots.svg" class="image-dots" alt="dots">
+          <a href="#" class="btn btn-extension">Add & Install Extension</a>
+        </div>
+
+        <div class="card card-firefox">
+          <img src="images/logo-firefox.svg" class="logo-firefox" alt="Chrome">
+          <h3>Add to Firefox</h3>
+          <p class="text-muted text-small">Minimum version 55</p>
+          <img src="images/bg-dots.svg" class="image-dots" alt="dots">
+          <a href="#" class="btn btn-extension">Add & Install Extension</a>
+        </div>
+
+        <div class="card card-opera">
+          <img src="images/logo-opera.svg" class="logo-opera" alt="Chrome">
+          <h3>Add to Opera</h3>
+          <p class="text-muted text-small">Minimum version 45</p>
+          <img src="images/bg-dots.svg" class="image-dots" alt="dots">
+          <a href="#" class="btn btn-extension">Add & Install Extension</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCORDION  -->
+
+  <section>
+    <div class="FAQs">
+      <div class="col">
+        <h2>Frequently Asked Questions</h2>
+        <p class="text-muted">Here are some of our FAQs. If you have any 
+          other questions you'd like answered please feel free to email us.
+        </p>
+        <div class="accordion-container">
+          <button class="accordion">What is Bookmark?</button>
+          <div class="panel">
+            <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. In veniam ab, mollitia rem fugiat modi eos esse! Ipsam, beatae consectetur.</p>
+          </div>
+          
+          <button class="accordion">How can I request a new browser?</button>
+          <div class="panel">
+            <p class="text-small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis impedit tempora, aliquam qui laboriosam veniam saepe debitis unde fuga ut.</p>
+          </div>
+          
+          <button class="accordion">Is there a mobile app</button>
+          <div class="panel">
+            <p class="text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim ipsam nulla rem tenetur quasi saepe explicabo voluptates aliquid omnis. Similique.</p>
+          </div>
+
+          <button class="accordion">What about other Chromium browsers?</button>
+          <div class="panel">
+            <p class="text-small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsum numquam, recusandae nisi animi velit ab cum quos molestias labore?</p>
+          </div>
+        </div>
+        <a href="#" class="btn btn-more">More Info</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="contact">
+      <p class="text-white text-monospace">35.000+ ALREADY JOINED</p>
+      <h2 class="text-white">Stay up-to-date with what we're doing</h2>
+      <form>
+        <div class="email">
+          <input type="email" id="email"class="email-field" placeholder="example@domain.com">
+          <p id="result"></p>
+        </div>
+        <input type="submit" id="validate" class="btn btn-email" value="Contact Us">
+        
+      </form>
+    </div>
+  </section>
+
+<footer>
+  <div class="row">
+    <img src="images/logo-bookmark-footer.svg" class="logo-footer">
+    <ul class="footer-navigation">
+      <li><a href="#">FEATURES</a></li>
+      <li><a href="#">PRICING</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+    </div>
+  <ul class="socials">
+    <li><a href="#"><img src="images/facebook.svg" alt="" class="logo-socials"></a></li>
+    <li><a href="#"><img src="images/telegram.svg" alt="" class="logo-socials"></a></li>
+  </ul>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

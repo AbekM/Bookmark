@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="657"
+   height="466"
+   version="1.1"
+   id="svg3959"
+   sodipodi:docname="illustration-hero-bg.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata3963">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview3961"
+     showgrid="false"
+     inkscape:zoom="0.86695279"
+     inkscape:cx="388.28383"
+     inkscape:cy="166.77128"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs3866">
+    <filter
+       id="a"
+       width="118%"
+       height="126.9%"
+       x="-9%"
+       y="-5.7%"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset3839" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="2"
+         id="feGaussianBlur3841" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
+         id="feColorMatrix3843" />
+      <feMerge
+         id="feMerge3849">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode3845" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode3847" />
+      </feMerge>
+    </filter>
+    <rect
+       id="c"
+       width="578"
+       height="385"
+       rx="26" />
+    <filter
+       id="b"
+       width="126%"
+       height="139%"
+       x="-13%"
+       y="-11.7%"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="30"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset3853" />
+      <feGaussianBlur
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         stdDeviation="20"
+         id="feGaussianBlur3855" />
+      <feColorMatrix
+         in="shadowBlurOuter1"
+         values="0 0 0 0 0.18243335 0 0 0 0 0.230632694 0 0 0 0 0.506057518 0 0 0 0.200120192 0"
+         id="feColorMatrix3857" />
+    </filter>
+    <linearGradient
+       id="d"
+       x1="465.28075"
+       x2="13.543785"
+       y1="338.08626"
+       y2="138.31688"
+       gradientTransform="scale(1.2262754,0.81547751)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         stop-color="#151515"
+         id="stop3860" />
+      <stop
+         offset="100%"
+         stop-color="#3D3D3D"
+         id="stop3862" />
+    </linearGradient>
+    <rect
+       id="e"
+       width="536"
+       height="346"
+       y="3"
+       rx="8" />
+  </defs>
+  <style
+     id="style3976"
+     type="text/css">
+	.st0{fill:#4b5fcf;stroke:#FFFFFF;stroke-miterlimit:10;}
+</style>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="display:inline">
+    <path
+       id="path3978"
+       d="M 295.92947,456.99944 H 657.78162 V 169.33225 H 132.34216 v 148.94768 c 0,76.5834 73.27505,138.71951 163.58731,138.71951 z"
+       class="st0"
+       inkscape:connector-curvature="0"
+       style="fill:#4b5fcf;stroke:#ffffff;stroke-width:0.69419885;stroke-miterlimit:10" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2">
+    <g
+       transform="matrix(0.95114042,0,0,0.94883444,22.578013,2.0722151)"
+       id="g3957"
+       style="fill:none;fill-rule:evenodd;filter:url(#a)">
+      <g
+         transform="translate(0.5,0.5)"
+         id="g3911">
+        <g
+           id="g3872"
+           style="fill-rule:nonzero">
+          <use
+             xlink:href="#c"
+             id="use3868"
+             style="fill:#000000;filter:url(#b)"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#c"
+             id="use3870"
+             style="fill:#777777"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+        </g>
+        <rect
+           width="574.22998"
+           height="381.86499"
+           x="2"
+           y="2"
+           rx="25"
+           id="rect3874"
+           style="fill:url(#d);fill-rule:nonzero" />
+        <g
+           transform="translate(21.03,16.303)"
+           id="g3909">
+          <rect
+             width="471.46301"
+             height="353.75601"
+             x="33"
+             rx="5"
+             id="rect3876"
+             y="0"
+             style="opacity:0.1;fill:#2a2a2a;fill-rule:nonzero" />
+          <mask
+             id="f"
+             fill="#fff">
+            <use
+               xlink:href="#e"
+               id="use3878"
+               x="0"
+               y="0"
+               width="100%"
+               height="100%" />
+          </mask>
+          <use
+             xlink:href="#e"
+             id="use3881"
+             style="fill:#e8eaf6;fill-rule:nonzero"
+             x="0"
+             y="0"
+             width="100%"
+             height="100%" />
+          <g
+             mask="url(#f)"
+             id="g3897">
+            <path
+               d="m -3.53,3.197 h 547 v 59 h -547 z"
+               id="path3883"
+               inkscape:connector-curvature="0"
+               style="fill:#5267df" />
+            <g
+               transform="translate(22.47,17.197)"
+               id="g3895"
+               style="fill:#ffffff">
+              <circle
+                 cx="16"
+                 cy="16"
+                 r="16"
+                 id="circle3885"
+                 style="opacity:0.24500002" />
+              <circle
+                 cx="477"
+                 cy="16"
+                 r="16"
+                 id="circle3887"
+                 style="opacity:0.10400002" />
+              <g
+                 transform="translate(47,6)"
+                 id="g3893">
+                <rect
+                   width="120"
+                   height="6"
+                   rx="3"
+                   id="rect3889"
+                   x="0"
+                   y="0"
+                   style="opacity:0.75" />
+                <rect
+                   width="64"
+                   height="6"
+                   y="14"
+                   rx="3"
+                   id="rect3891"
+                   x="0"
+                   style="opacity:0.25" />
+              </g>
+            </g>
+          </g>
+          <g
+             mask="url(#f)"
+             id="g3907">
+            <g
+               transform="translate(57,96)"
+               id="g3905">
+              <rect
+                 width="261"
+                 height="316"
+                 rx="8"
+                 id="rect3899"
+                 x="0"
+                 y="0"
+                 style="fill:#ffffff" />
+              <rect
+                 width="128"
+                 height="316"
+                 x="295"
+                 rx="8"
+                 id="rect3901"
+                 y="0"
+                 style="fill:#ffffff" />
+              <rect
+                 width="120"
+                 height="6"
+                 x="78.470001"
+                 y="38.196999"
+                 rx="3"
+                 id="rect3903"
+                 style="opacity:0.5;fill:#242a45" />
+            </g>
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(110,135)"
+         id="g3931">
+        <circle
+           cx="16"
+           cy="26"
+           r="16"
+           id="circle3913"
+           style="fill:#f98e5d" />
+        <rect
+           width="88"
+           height="6"
+           x="284"
+           rx="3"
+           id="rect3915"
+           y="0"
+           style="opacity:0.25;fill:#242a45" />
+        <rect
+           width="88"
+           height="6"
+           x="284"
+           y="20"
+           rx="3"
+           id="rect3917"
+           style="opacity:0.25;fill:#242a45" />
+        <rect
+           width="88"
+           height="6"
+           x="284"
+           y="40"
+           rx="3"
+           id="rect3919"
+           style="opacity:0.25;fill:#242a45" />
+        <rect
+           width="88"
+           height="6"
+           x="284"
+           y="60"
+           rx="3"
+           id="rect3921"
+           style="opacity:0.25;fill:#242a45" />
+        <rect
+           width="88"
+           height="6"
+           x="284"
+           y="94"
+           rx="3"
+           id="rect3923"
+           style="opacity:0.25;fill:#242a45" />
+        <rect
+           width="88"
+           height="6"
+           x="284"
+           y="114"
+           rx="3"
+           id="rect3925"
+           style="opacity:0.25;fill:#242a45" />
+        <rect
+           width="88"
+           height="6"
+           x="284"
+           y="134"
+           rx="3"
+           id="rect3927"
+           style="opacity:0.25;fill:#242a45" />
+        <rect
+           width="64"
+           height="6"
+           x="47"
+           y="30"
+           rx="3"
+           id="rect3929"
+           style="opacity:0.25;fill:#242a45" />
+      </g>
+      <g
+         transform="translate(110,201)"
+         id="g3939">
+        <circle
+           cx="16"
+           cy="16"
+           r="16"
+           id="circle3933"
+           style="fill:#6ac6d6" />
+        <rect
+           width="120"
+           height="6"
+           x="47"
+           y="6"
+           rx="3"
+           id="rect3935"
+           style="opacity:0.5;fill:#242a45" />
+        <rect
+           width="64"
+           height="6"
+           x="47"
+           y="20"
+           rx="3"
+           id="rect3937"
+           style="opacity:0.25;fill:#242a45" />
+      </g>
+      <g
+         transform="translate(110,257)"
+         id="g3947">
+        <circle
+           cx="16"
+           cy="16"
+           r="16"
+           id="circle3941"
+           style="fill:#a47ed4" />
+        <rect
+           width="120"
+           height="6"
+           x="47"
+           y="6"
+           rx="3"
+           id="rect3943"
+           style="opacity:0.5;fill:#242a45" />
+        <rect
+           width="64"
+           height="6"
+           x="47"
+           y="20"
+           rx="3"
+           id="rect3945"
+           style="opacity:0.25;fill:#242a45" />
+      </g>
+      <g
+         transform="translate(110,313)"
+         id="g3955">
+        <circle
+           cx="16"
+           cy="16"
+           r="16"
+           id="circle3949"
+           style="fill:#ec7878" />
+        <rect
+           width="120"
+           height="6"
+           x="47"
+           y="6"
+           rx="3"
+           id="rect3951"
+           style="opacity:0.5;fill:#242a45" />
+        <rect
+           width="64"
+           height="6"
+           x="47"
+           y="20"
+           rx="3"
+           id="rect3953"
+           style="opacity:0.25;fill:#242a45" />
+      </g>
+    </g>
+  </g>
+</svg>

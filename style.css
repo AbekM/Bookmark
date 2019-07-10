@@ -1,0 +1,448 @@
+body {
+    margin: 0;
+    background: #fff;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.6;
+}
+nav a {
+    font-size: .9em;
+    font-weight: 600;
+}
+.btn {
+    padding: 0.8em 2.2em;
+    background-color: #fc575b;
+    color: white;
+    border-radius: .4em;
+    text-decoration: none;
+
+}
+
+.btn-login {
+    padding: 0.6em 2.2em;
+    background-color: #fc575b; 
+    border: 2px solid #fc575b; 
+}
+
+.btn-login:hover {
+    background-color: white;
+    border: 2px solid #fc575b; 
+    color: #fc575b; 
+}
+
+.hero {
+    padding: 2rem 0rem 3rem 7rem;
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-big {
+    max-width: 35rem;
+    padding-right: 3rem;
+    margin-top: -3rem;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+.text-muted {
+    font-size: 1.125rem;
+    color: #9f9fa7;
+}
+
+.row {
+    padding: 2rem 0;
+}
+.btn-chrome {
+    background-color: hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
+    margin-right: 1rem;
+}
+
+.btn-chrome:hover {
+    color: hsl(231, 69%, 60%);
+    background-color: white;
+}
+
+.btn-firefox {
+    background-color: hsl(229, 8%, 60%);
+    border: 2px solid hsl(229, 8%, 60%);
+}
+
+.btn-firefox:hover {
+    color: hsl(229, 8%, 60%);
+    background-color: white;
+}
+
+.features {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-features {
+    display: block;
+    max-width: 40%;
+    min-width: 570px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+ /* Style the tab */
+.tab {
+  /* overflow: hidden; */
+  max-width: 34.25rem;
+  margin: 0 auto;
+}
+.tab::after {
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #9f9fa7
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: white;
+  position: relative;  
+  width: 11.25rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #9f9fa7;
+  padding: 1rem 2rem;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: hsl(0, 94%, 66%);
+}
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+    color: black;
+}
+.tab button.active::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 11.25rem;
+  height: 2px;
+  background-color: hsl(0, 94%, 66%);
+  margin: 0 auto;
+  bottom: 0;
+  left: 0;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 3rem 0;
+  border-top: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.col {
+    flex: 4;
+    padding: 2rem 6rem 2rem 10rem ;
+    text-align: left;
+}
+
+.illustration {
+    flex: 6;
+}
+
+.text-description {
+    padding-bottom: 2rem;
+    margin: 0;
+    
+}
+
+.btn-more {
+    background-color: #5266df;
+    padding: 0.6em 2em;
+}
+.btn-more:hover {
+    background-color: white;
+    color: #5266df;
+    border: 2px solid #5266df;    
+}
+.extensions {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.text-extensions {
+    display: block;
+    max-width: 34rem;
+    margin: 0 auto;
+}
+
+.cards {
+    margin: 0 auto;
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 65rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    box-shadow: 0 4px 6px #e0eae0, 0 4px 4px #e0eae0;
+    padding: 2rem 0rem;
+    border-radius: .5rem;
+}
+
+.logo-chrome, .logo-firefox, .logo-opera {
+    width: 100px;
+    height: 100px;
+}
+.image-dots {
+    padding: 1rem 0;
+}
+
+.card-chrome {
+    margin-top: -4rem;
+}
+
+
+.card-firefox {
+    margin-top: 0rem;
+}
+
+.card-opera {
+    margin-top: 4rem;
+}
+
+.btn-extension {
+    background-color: hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
+}
+
+.btn-extension:hover {
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+}
+
+/* ACCORDION */
+
+.col {
+    width: 40%;
+    min-width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.accordion-container {
+    padding: 2rem 0;
+}
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+
+.accordion::after {
+    content: ' ';
+    height: 1.125rem;
+    width: 1rem;
+    background-image: url('images/down-arrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion:hover {
+  color:hsl(0, 94%, 66%);
+}
+.activex::after {
+    content: ' ';
+    height: 1.125rem;
+    width: 1rem;
+    background-image: url('images/up-arrow.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  margin: 0;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+} 
+
+.text-small {
+    text-align: left;
+    font-size: 1rem;
+    color: #4f4f50;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    width: 100%;
+    background-color: #5266df;
+    padding: 2rem;
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+.text-monospace {
+    font-family: monospace;
+    font-weight: 400;
+}
+
+.email-field {
+    border: none;
+    height: 2rem;
+    width: 13rem;
+}
+
+.btn-email {
+    border: 2px solid #5266df;
+    padding: 0.52rem 1rem;
+    font-weight: 600;
+    max-height: 2.28958375rem;
+}
+
+
+input.btn-email:hover {
+    border: 2px solid #fc575b;
+    background-color: white;
+    color: #fc575b;
+}
+
+#result {
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    position: relative;
+    width: 210px;
+    font-size: .8rem;
+    
+}
+
+#result::after {
+    content: ' ';
+    background-image: url('images/caution.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1.2rem;
+    width: 1.2rem;
+    display: inline-block;
+    position: absolute;  
+    top: -1.55rem;
+    right: .5rem;
+    display: none;
+
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 21rem;
+    margin: 0 auto;
+}
+
+.red #result::after {
+    display: block;
+}
+.red .email {
+    border: 2px solid #fc575b;
+    border-radius: 4px;
+}
+
+
+.green .email {
+    border: 2px solid #29a265;
+    border-radius: 4px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: #242946;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.footer-navigation {
+   margin: 0rem 4rem; 
+}
+ul {
+    columns: 3;
+    list-style: none;
+}
+
+.footer-navigation>li>a {
+    text-decoration: none;
+    color: white
+}
+li>a:hover {
+    color: #fc575b;
+}
+.logo-socials {
+    color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.logo-socials:hover {
+    color: #fc575b;
+}
+
+.row {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
