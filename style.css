@@ -12,6 +12,7 @@ body {
 /* DESKTOP NAVIGATION */
 
 header {
+    position: relative;
     display: flex;
     width: 100%;
     padding: 2rem;
@@ -32,6 +33,44 @@ nav>ul>li>a {
     font-weight: 400;
 
 }
+#myBtn {
+    display: none;
+}
+.nav-toggle-label {
+    position: absolute;
+    top: 1.7rem;
+    right: 2rem;
+    margin-right: 1em;
+    height: 2rem;;
+    display: none;
+    align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    display: block;
+    background: black;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+    position: relative;
+
+}
+
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-label span::before {
+    bottom: 7px;
+}
+.nav-toggle-label span::after {
+    top: 7px;
+}
+
 /* MOAL NAVIGATION STYLING */
 
  /* The Modal (background) */
@@ -542,4 +581,13 @@ li>a:hover {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
+    }
+    .nav-toggle-label {
+        display: flex;
+    }
 }
