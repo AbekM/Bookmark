@@ -1,18 +1,37 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background: #fff;
     font-weight: 400;
     font-family: 'Rubik', sans-serif;
 }
+/* DESKTOP NAVIGATION */
 
-p {
-    line-height: 1.6;
-}
-nav a {
-    font-size: .9em;
-    font-weight: 600;
+header {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
+.logo-text {
+    padding-left: 5rem;
+}
+nav>ul {
+    columns: 4;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #4f4f50;
+    font-weight: 400;
+
+}
 /* MOAL NAVIGATION STYLING */
 
  /* The Modal (background) */
