@@ -1,7 +1,7 @@
 
-*, *::before, *::after {
+/* *, *::before, *::after {
     box-sizing: border-box;
-}
+} */
 
 body {
     margin: 0;
@@ -80,7 +80,8 @@ nav>ul>li>a {
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
+  width: 130vw; /* Full width */
+  transform: translateX(-10%);
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
@@ -89,49 +90,120 @@ nav>ul>li>a {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: hsl(229, 31%, 21%);
   margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  /* padding: 20px; */
+  width: 100%; /* Could be more or less, depending on screen size */
+  height: 100%;
+  opacity: .95;
+}
+.logo-mobile {
+    display: block;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
+.modal-header::after {
+    content: ' ';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #4c526c; 
+    position: absolute;
+    top: 6rem;   
+}
+a.nav-mobile {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    position: relative;
+    letter-spacing: 0.3rem;
+
+}
+
+a.nav-mobile:hover {
+  color: #fc575b;
+}
+
+a.nav-mobile::after {
+    content: ' ';
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #4c526c; 
+    position: absolute;
+    top: 4rem;   
+}
+.modal-body {
+    display: flex;
+    flex-direction: column;
+}
 /* The Close Button */
+
+.modal-header {
+    position: relative;
+    padding: 2px 16px;
+    background-color:hsl(229, 31%, 21%);
+    color: white;
+}
 .close {
-  color: #aaa;
+  color: white;
   float: right;
   font-size: 28px;
   font-weight: bold;
+  position: absolute;
+  right: 10%;
+  top: 1.77rem;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: #fc575b;
   text-decoration: none;
   cursor: pointer;
 } 
 
- /* Modal Header */
-.modal-header {
-  padding: 2px 16px;
-  background-color: #5cb85c;
-  color: white;
-}
 
 /* Modal Body */
 .modal-body {padding: 2px 16px;}
 
+.btn-nav-mobile {
+  text-decoration: none;
+  align-self: center;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  color: white;
+  background-color: hsl(229, 31%, 21%);
+  border: 2px solid white; 
+  border-radius: 6px;
+  padding: .8rem 5rem;
+  margin-top: 3.2rem;
+}
+
+.btn-nav-mobile:hover {
+  color: #fc575b;
+  border-color: #fc575b;
+}
+
 /* Modal Footer */
 .modal-footer {
+  margin-top: 2rem;
+  width: 2rem;
   padding: 2px 16px;
-  background-color: #5cb85c;
+  background-color: hsl(229, 31%, 21%);
   color: white;
+  display: block;
+  margin: 0 auto;
 }
 
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  background-color: hsl(229, 31%, 21%);
   margin: auto;
   padding: 0;
   border: 1px solid #888;
@@ -570,6 +642,7 @@ li>a:hover {
     color: white;
     width: 1.5rem;
     height: 1.5rem;
+    margin: .5rem;
 }
 
 .logo-socials:hover {
