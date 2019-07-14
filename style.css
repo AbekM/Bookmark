@@ -1,7 +1,6 @@
-
-/* *, *::before, *::after {
+ *, *::before, *::after {
     box-sizing: border-box;
-} */
+} 
 
 body {
     margin: 0;
@@ -12,6 +11,7 @@ body {
 /* DESKTOP NAVIGATION */
 
 header {
+  margin: 0;
     position: relative;
     display: flex;
     width: 100%;
@@ -39,7 +39,7 @@ nav>ul>li>a {
 .nav-toggle-label {
     position: absolute;
     top: 1.7rem;
-    right: 2rem;
+    right: 1rem;
     margin-right: 1em;
     height: 2rem;;
     display: none;
