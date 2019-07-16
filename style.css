@@ -51,7 +51,7 @@ nav>ul>li>a {
 .nav-toggle-label span::after {
     display: block;
     background: black;
-    height: 2px;
+    height: 3px;
     width: 2em;
     border-radius: 2px;
     position: relative;
@@ -251,7 +251,10 @@ a.nav-mobile::after {
     align-items: center;
     justify-content: space-between;
 }
-
+.illustration-hero {
+  align-self: flex-end;
+  justify-self: flex-end;
+}
 .col-big {
     max-width: 35rem;
     padding-right: 3rem;
@@ -323,6 +326,7 @@ h1 {
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
+  font-size: 1rem;
   background-color: white;
   position: relative;  
   width: 11rem;
@@ -662,5 +666,121 @@ li>a:hover {
     }
     .nav-toggle-label {
         display: flex;
+    }
+    .hero {
+      padding: 2rem 0;;
+      margin: 2rem auto;
+    }
+    .container {
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+    .illustration-hero {
+      order: 1;
+      padding-bottom: 4rem;
+      width: 90%;
+
+    }
+    .col-big {
+      text-align: center;
+      order: 2;
+      padding:1rem;
+    }
+    .hero-btns {
+      margin-top: -4rem;
+    }
+
+    /* TABULAR MENU */
+    .tab {
+      display: flex!important;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .tab::after {
+      display: none;
+    }
+    .tab button {
+      width: 13rem;
+      /* position: relative; */
+    }
+    .tab button::after {
+      content: " ";
+      display: flex;
+      align-self: center;
+      justify-self: center;
+      margin: 0 auto;
+      width: 90%;
+      height: 1px;
+      background-color: #9f9fa7;
+      position: absolute;
+      top: 3rem;
+      left: 0;
+      right: 0
+    }
+    .tabcontent {
+      display: block;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      position: relative;
+      width: 100%;
+    }
+    .img-container {
+      display: flex;
+      width: 100vw;
+      padding-right: 10%;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      justify-items: flex-start;
+    }
+    .col{
+      margin: 0 auto;
+      min-width: 0;
+      width: 80%;
+      padding: 2rem 0;
+    }
+
+    .cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card {
+      margin: 1rem 0!important;
+    }
+    footer {
+      flex-direction: column;
+      height: 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo-footer {
+      margin: 0 auto;
+    }
+    footer>.row {
+      display: flex;
+      flex-direction: column;
+       align-items: center;
+      justify-content: space-between;
+    }
+    .footer-navigation {
+      columns: 1;
+      text-align: center;
+      padding: 1rem 0;
+      margin: 0;
+      height: 100%;
+      line-height: 2rem;
+    }
+    .footer-navigation a {
+      margin: .5rem 0;
+    }
+    .logo-socials {
+      margin: 0 auto;
     }
 }
